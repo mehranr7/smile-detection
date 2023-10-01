@@ -1,2 +1,4 @@
-/faces
-/smiles
+/test
+/genki4k/smiles
+/genki4k/faces
+/smile_detection.joblib
