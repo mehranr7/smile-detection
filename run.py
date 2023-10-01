@@ -4,11 +4,11 @@ import Model_Manager
 
 # define folder paths
 source_folder_path = 'genki4k'
-faces_folder_path = 'faces'
-smiles_folder_path = 'smiles'
+faces_folder_path = os.path.join(source_folder_path,"faces")
+smiles_folder_path = os.path.join(source_folder_path,"smiles")
 test_folder_path = 'test'
-test_face_folder_path = os.path.join("test","faces")
-test_smile_folder_path = os.path.join("test","smiles")
+test_face_folder_path = os.path.join(test_folder_path,"faces")
+test_smile_folder_path = os.path.join(test_folder_path,"smiles")
 
 # Record the start time
 start_time = time.time()
